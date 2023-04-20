@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CatPhotoApp</title>
+</head>
+<body>
+    <main> 
+    <h1>CatPhotoApp</h1>
+    <section>    
+        <h2>Cat Photos</h2>
+            <p>See more <a href="#">cat photos</a> in our galary</p>
+            <a href="https://www.google.com"><img src="cat1.jpg" alt="cat1" style="max-width: 35%;"></a>
+    </section>
+    <section>
+        <h2>Cat Lists</h2>       
+        <h3>Things cats love : </h3>
+            <ul>
+                <li>Sleep</li>    
+                <li>Food</li>    
+                <li>Cat nip</li>    
+            </ul>
+            <figure>
+                <a href="#"><img src="lasagna.jpg" alt="lasagna" style="max-width: 35%;"></a>
+                <figcaption>Cats love <em>lasagna</em>.</figcaption>
+            </figure>
+        <h3>Top 3 Things cats hate : </h3>
+            <ol>
+                <li>flea treatment</li>    
+                <li>thunder</li>    
+                <li>other cats</li>    
+            </ol>
+            <figure>
+                <a href="#"><img src="catshate.jpg" alt="catshate" style="max-width: 35%;"></a>
+                <figcaption>Cats hate <strong>other cats</strong>.</figcaption>
+            </figure>
+    </section>
+    <section>
+        <h2>Cat Form</h2>
+            <form action="https://www.google.com">
+                <fieldset>
+                    <legend>Is your cat an indoor cat or outdoor cat?</legend>
+                    <label for="indoor"><input type="radio" id="indoor" name="in-out-cat" value="Indoor" required>Indoor</label>
+                    <label for="outdoor"><input type="radio" id="outdoor" name="in-out-cat" value="Outdoor" required>Outdoor</label> 
+                </fieldset>
+                <fieldset>
+                    <legend>What's your cat's personality?</legend>
+                    <label for="persona1"><input type="checkbox" id="persona1" name="persona" value="Loving">Loving<label>
+                    <label for="persona2"><input type="checkbox" id="persona2" name="persona" value="Lazy">Lazy<label>
+                    <label for="persona3"><input type="checkbox" id="persona3" name="persona" value="Energetic">Energetic<label>
+                </fieldset>
+                    <input type="text" name="catphotourl" placeholder="cat photo url" required>
+                    <button type="submit">Submit</button>
+            </form>
+    </section>
+    </main>
+    <footer>
+    <p> No copywright - <a href="https://www.freecodecamp.org/">freecodecamp.org</a></p>
+    </footer>
+</body>
+</html>
